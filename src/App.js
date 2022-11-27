@@ -1,9 +1,12 @@
 import styles from './App.module.css';
+import ProfileList from './components/profile/ProfileList';
+import { AiFillGithub } from 'react-icons/ai';
 
 function App() {
   return (
     <div>
-      <h3>Team Member</h3>
+      <ProfileList />
+      <AiFillGithub />
     </div>
   );
 }
